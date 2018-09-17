@@ -32,7 +32,7 @@ There is scope for further optimisation for a number of hyperparameters:
 2. Changing the seed confidence
 3. Merging topics which share a large number of the same highest probability words 
 
-Could look into the sparse PCA method from the paper.  
+Implement cosine similarity metric.
 
 # References 
  
