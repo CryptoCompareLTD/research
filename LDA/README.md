@@ -18,7 +18,7 @@ The topics were initially be defined using Latent Dirichlet Allocation (LDA). Th
 
 ### Guided LDA
 
-The idea to improve interpretability of topics was to instead 'seed' the classification with an asymmetric Dirichlet prior biased towards words which are associated with particular topics. A useful package written by [2] was used to implement this. The seed words and topics were drawn from the current primitive news classification used on the API. These topics and seed words were then optimised by manually adjustments based on topic classification results. 
+The idea to improve interpretability of topics was to instead 'seed' the classification with an asymmetric Dirichlet prior biased towards words which are associated with particular topics. A useful package written by [2] was used to implement this. The seed words and topics were drawn from the current primitive news classification used on the API. These topics and seed words were then optimised by manual adjustments based on topic classification results. 
 
 ### Using the model
 
