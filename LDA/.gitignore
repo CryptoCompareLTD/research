@@ -1,0 +1,7 @@
+get_news.py
+*.pyc
+__pycache__
+.ipynb_checkpoints
+GuidedLDA_notebook.ipynb
+GuidedLDA_notebook_optimised.ipynb
+*.csv
