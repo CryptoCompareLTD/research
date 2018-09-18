@@ -22,7 +22,7 @@ The idea to improve interpretability of topics was to instead 'seed' the classif
 
 ### Using the model
 
-The topic allocations can be imported into a pandas dataframe and analysed by looking at prevalence of allocation to a topic over time. However, we could be a bit smarter and pickup the reserach direction that is taken in [1] with their sparse PCA model. The idea is that we want to be able to query a search using a list of words that define the topic of interest. This can be achieved by generating a word list from word->document assignment probabilities for each document, and then calculating cosine similarity of the search terms to each document at every time point. 
+The topic allocations can be imported into a pandas dataframe and analysed by looking at prevalence of allocation to a topic over time. However, we could be a bit smarter and pick up the research direction that is taken in [1] with their sparse PCA model. The idea is that we want to be able to query a search using a list of words that define the topic of interest. This can be achieved by generating a word list from word->document assignment probabilities for each document, and then calculating cosine similarity of the search terms to each document at every time point. 
 
 # Future work 
  
